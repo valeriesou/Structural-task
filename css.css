@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  background-color:bisque;
+  padding: 0px;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+	float:left;
+	width: 100%;
+
+}
+	a {display:block;padding:8px;color:red;}
+	a:hover{background-color:cadetblue;}
+	article{background-color:cornsilk; 
+		height: 400px;
+		text-align: justify;
+		padding: 20px;
+		font-size:18px;
+}
+	
+footer {
+	padding:5px;
+	color:aquamarine;
+  background-color: darkgreen;
+  text-align: center;
+  font-size: 16px;
+}
